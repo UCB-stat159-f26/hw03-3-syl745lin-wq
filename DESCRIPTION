@@ -7,6 +7,8 @@ Description: Retrieves career match records from Tennis Abstract and plots playe
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.0.0
 Imports: 
-    jsonlite
+    ggplot2,
+    jsonlite,
+    rlang
+Config/roxygen2/version: 8.1.1
