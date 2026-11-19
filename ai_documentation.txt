@@ -1,0 +1,28 @@
+AI Documentation 
+
+AI tool used
+ChatGPT (OpenAI), used interactively on November 13, 2026.
+
+Purpose and scope
+I used ChatGPT to understand this assignment's tasks. The assistance included explanations, substantial code syntax explanations, and debugging.
+
+Understanding the assignment
+ChatGPT helped me interpret the HW3 instructions. It suggested a package structure and functions I could use.
+
+Package setup
+ChatGPT provided me with available and provided me through editing files with nano, saving changes, and distinguishing Bash commands from R code.
+We encountered package-name validation and noninteractive-session errors
+during setup. I shared the terminal output, and ChatGPT revised its
+instructions until the package skeleton was created successfully.
+
+Code generation and adaptation
+I provided my HW2 download and cleaning code as reference. I provided the code structure and initial ideas for making an R package, and let ChatGPT provide the R syntax to download career match records, extract player birth dates, calculate ages, and produce the scatter plot. The code accounts for the different opponent-age formats in the women's and men's data. After reviewing the syntax examples ChatGPT suggested, I scripted the code to calculate opponent age from birth dates in the women's records and read numerical ages from the men's records. For HW3, the age difference is defined as player age minus opponent age.
+
+Debugging and verification
+I ran the commands in DataHub. The expression extracted an incomplete array and caused a premature EOF error. I asked ChatGPT for suggestions on why a premature EOF error might occur, and I revised the parser to successfully read 1038 Serena Williams matches. I manually checked retrieval for Serena Williams and Rafael Nadal and confirmed that an invalid player name produced an informative error. I ran offline tests using local women's and men's data. I ran these tests successfully. I generated the help files, installed the package locally, and checked retrieval and plot construction. After pushing the repository, I installed the package from GitHub using remotes and successfully repeated retrieval and plot construction for Rafael Nadal.
+
+Documentation and Git
+ChatGPT helped me understand the assignment required content must be mentioned in the README. I edited the reflection to describe what I learned about R packages, nano, and Git.
+
+Responsibility
+The submitted code and documentation include the R script syntax ChatGPT provided. I selected and saved the content, executed the commands, reviewed the outputs, and made the commits. 
